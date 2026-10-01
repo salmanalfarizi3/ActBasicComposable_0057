@@ -60,4 +60,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
 
-           }
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = Color.White,
+                modifier = Modifier.padding(bottom = 24.dp)
+            )
+
+
+            }
