@@ -77,3 +77,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
 
+            Spacer(modifier = Modifier.height(24.dp))
+
+
+            Text(
+                text = "Nama",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
+
