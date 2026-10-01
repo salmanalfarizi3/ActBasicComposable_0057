@@ -118,3 +118,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .background(Color.LightGray),
                 contentAlignment = Alignment.Center
             ) {
+                Image(
+                    painter = painterResource(id = R.drawable.gambar),
+                    contentDescription = "Foto Profil / Konten",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            }
+        }
+    }
+}
