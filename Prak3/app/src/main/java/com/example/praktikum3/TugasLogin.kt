@@ -68,4 +68,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
 
-            }
+            Image(
+                painter = painterResource(id = R.drawable.umy), // Sesuaikan resource logo UMY
+                contentDescription = "Logo UMY",
+                modifier = Modifier
+                    .size(150.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
