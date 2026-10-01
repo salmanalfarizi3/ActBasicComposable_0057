@@ -43,4 +43,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         )
 
 
-        }
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+
+
+          }
