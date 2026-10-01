@@ -28,4 +28,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         contentAlignment = Alignment.Center
     ) {
 
-      }
+        Image(
+            painter = painterResource(id = R.drawable.tuguu),
+            contentDescription = "Background Login",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+
+        }
