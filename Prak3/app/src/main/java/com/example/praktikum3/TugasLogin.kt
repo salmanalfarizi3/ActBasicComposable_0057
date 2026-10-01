@@ -106,3 +106,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
 
+            Box(
+                modifier = Modifier
+                    .size(210.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 4.dp,
+                        color = Color.White,
+                        shape = CircleShape
+                    )
+                    .background(Color.LightGray),
+                contentAlignment = Alignment.Center
+            ) {
