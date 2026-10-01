@@ -88,3 +88,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
 
+            Text(
+                text = "Salman Alfarizi",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+
+
