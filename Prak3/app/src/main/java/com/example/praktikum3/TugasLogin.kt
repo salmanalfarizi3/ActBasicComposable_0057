@@ -97,3 +97,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
 
+            Text(
+                text = "20040140057",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White,
+                modifier = Modifier.padding(bottom = 32.dp)
+            )
+
+
